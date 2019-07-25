@@ -25,7 +25,7 @@ public class HouseController {
      */
     @RequestMapping("/getOne")
     public Object getOne(Integer id){
-        System.out.println(111);
+        System.out.println(2);
         return service.queryById(id);
     }
 
